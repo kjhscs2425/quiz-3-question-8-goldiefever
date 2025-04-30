@@ -11,14 +11,14 @@ def expenses_per_store(store):
     expenses = 0
     for key in stores_and_prices:
         if key == store:
-            for item in range(len(((stores_and_prices[store])))):
+            for item in range(len(stores_and_prices[store])):
                 expenses += stores_and_prices[store][item]["price"]
         else:
             pass
 
     print(f"You have spent ${expenses} at the {store}")
     if expenses >= 100:
-        print("Time to start saving ... 😥")
+        print("Oh no ... time to start saving 😥")
     else:
         print(f"Wow {username}, you are a good saver! 💰💰💰 Go buy yourself a little treat")
 

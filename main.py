@@ -18,9 +18,9 @@ def expenses_per_store(store):
 
     print(f"You have spent ${expenses} at the {store}")
     if expenses >= 100:
-        print("Time to start saving...")
+        print("Time to start saving ... 😥")
     else:
-        print(f"Wow {username}, you are a good saver! 💰💰💰")
+        print(f"Wow {username}, you are a good saver! 💰💰💰 Go buy yourself a little treat")
 
 expenses_per_store(input("Which store would you like to check your expenses at?\nThe options are pet store, grocery store, and office supply store.\n"))
 
